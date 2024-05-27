@@ -1,5 +1,5 @@
 ML
 
-Linear regretion machine learning model
+Logistic regretion machine learning model
 
 Acc: 78%
