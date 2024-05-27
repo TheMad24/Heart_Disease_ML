@@ -81,11 +81,11 @@ model = LogisticRegression(11)
 
 
 crit = nn.BCELoss()
-optimizer = torch.optim.SGD(model.parameters(),lr = 0.01)
+optimizer = torch.optim.SGD(model.parameters(),lr = 0.1)
 # LR = learning rate
 
 # Training loop
-nbEpochs = 100
+nbEpochs = 1000
 for epoch in range(nbEpochs):
     # Froward pass and loss
     y_predicted = model(x_train)
