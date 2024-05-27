@@ -2,4 +2,4 @@ ML
 
 Logistic regretion machine learning model
 
-Acc: 78%
+Acc: 87%
